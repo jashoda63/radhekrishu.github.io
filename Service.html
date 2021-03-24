@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Services</title>
+<style>
+		
+	body{
+			margin: 0;
+			padding: 0;
+			background-color: #333;
+
+	}
+
+	.heading{
+		text-align: center;
+		padding: 10px;
+	}
+
+	.heading h1{
+		text-decoration: underline;
+		color: #fff;
+		font-size: 28px;
+		line-height: 1.2;
+	}
+
+	.contaianer-box{
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		align-items: center;
+		margin: 15px;
+		box-sizing: border-box; 
+		transition: all 0.5s ease-in-out;
+	}
+
+	.contaianer-box .box{
+		position: relative;	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 300px;
+		border-radius: 5px;
+		color: #333;
+		background-color: #fff;
+		padding: 10px;
+		margin: 15px 15px;
+	}
+
+	.contaianer-box .box-img{
+		margin: 10px 0;
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+	}
+
+	.contaianer-box .box-img img{
+		width: 100%;
+		height: 100%;
+		border-radius: 50%;
+
+	}
+
+	.contaianer-box .box-content{
+		padding: 15px;
+		text-align: center;
+	}
+
+	.contaianer-box .box-content h3{
+		font-size: 24px;
+		line-height: 1.5;
+		text-align: center;
+		margin-top: 15px;
+		text-transform: capitalize;
+	}
+	.box-content before{
+		position: absolute;
+		content: '';
+		width: 20px;
+		height: 5px;
+		left: 0;
+		top: 0;
+		background-color: crimson;	
+		margin-top: 10px;
+
+	}
+
+	.box-content h3::before{
+		position: absolute;
+		content: '';
+		width: 70px;
+		height: 2px;
+		left: 40%;
+		top: 55%;
+		background-color: crimson;
+	}
+
+
+	</style>
+</head>
+<body>
+	<div class="heading">
+		<h1>Our Service</h1>
+	</div>
+	<div class="contaianer-box">
+
+		<div class="box">
+			<div class="box-img">
+				<img src="2.jpeg" alt="">
+			</div>
+			<div class="box-content">
+				<h3>Dulhan Ready</h3>
+				<p>Dulhan Beauty Parlour in Indira Nagar Lucknow has a wide range of products and / or services to cater to the varied requirements of their customers. The staff at this establishment are courteous and prompt at providing any assistance. They readily answer any queries or questions that you may have. </p>
+				<a href="">read more</a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="box-img">
+				<img src="6.jpg" alt="">
+			</div>
+			<div class="box-content">
+				<h3>Hair Style</h3>
+				<p>All of us need to know some crazy fast hairstyles that are both chic and cute and help us get ready for college or office within minutes. This kind of cute and easy hairstyles for girls are usually known as hair hacks because one creates a look that gives the impression of a time consuming hairdo but is actually simple and effortless</p>
+				<a href="">read more</a>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="box-img">
+				<img src="3.jpeg" alt="">
+			</div>
+			<div class="box-content">
+				<h3>Mehndi</h3>
+				<p>Henna paste is usually applied to the skin using a plastic cone, a paintbrush or a stick. After about 15–20 minutes, the mud will dry and begin to crack, and during this time, a mixture of lemon juice and white sugar can be applied over the henna design to remoisten the henna mud so that the henna will stain darker</p>
+				<a href="">read more</a>
+			</div>
+		</div>
+
+
+
+
+	</div>
+</body>
+</html>
